@@ -3,7 +3,6 @@ using namespace std;
 
 int main()
 {
-    N = 1 <= N >= 100;
     int N;
 
     cin >> N;
