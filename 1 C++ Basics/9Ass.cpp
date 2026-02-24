@@ -9,9 +9,14 @@ int main()
     cin >> N;
     cin >> M;
 
-    cout << N << " + " << M << " = " << N + M << endl ;
-    cout << N << " - " << M << " = " << N - M << endl ;
-    cout << N << " * " << M << " = " << N * M << endl ;
-    cout << N << " / " << M << " = " << N / M << endl ;
-    cout << N << " % " << M << " = " << N % M << endl ;
+    cout << N << " + " << M << " = " << N + M << endl << endl; 
+
+    cout << N << " - " << M << " = " << N - M << endl << endl;
+
+    cout << N << " * " << M << " = " << N * M << endl << endl;
+
+    cout << N << " / " << M << " = " << N / M << endl << endl;
+
+    cout << N << " % " << M << " = " << N % M << endl << endl;
+
 }
