@@ -82,7 +82,39 @@ int main()
     {
         cout << n % 10 ;
         n = n/10 ;
-    }   
+    }  
+    
+    //digit sum
+
+    int sum = 0;
+
+    int N ;
+    cin >> N ;
+
+
+    while (N != 0)
+    {
+        sum += N %10 ;  // to count , count++
+        N = N/10 ;
+    }
+
+    cout << sum << endl;
+    
+    //to reverse and store in variable
+
+    int ans = 0 ;
+    int n ;
+    cin >> n ;
+
+    while (n != 0)
+    {
+        ans = (ans*10) + n % 10 ;
+        n = n/10 ;
+    } 
+
+    cout << "ans = " << ans << endl ;
+
+
 }
 
 
