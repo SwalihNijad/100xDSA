@@ -102,8 +102,8 @@ int main()
     
     //to reverse and store in variable
 
-    int ans = 0 ;
-    int n ;
+    long long ans = 0 ;
+    long long n ;
     cin >> n ;
 
     while (n != 0)
@@ -113,6 +113,26 @@ int main()
     } 
 
     cout << "ans = " << ans << endl ;
+
+    //Palindrome
+
+    int rev = 0 ;
+    int n ;
+    cin >> n ;
+    int temp = n ;        // storing in a temporray variable to keep the input same
+
+    while (n != 0)
+    {
+        rev = (rev*10) + n % 10 ;
+        n = n/10 ;
+    }
+
+    if (rev == temp)  //then equating to rev
+    {
+        cout << "Yes it is palindrome" ;
+    } else {
+        cout << "No its not palindrome" ;
+    
 
 
 }
