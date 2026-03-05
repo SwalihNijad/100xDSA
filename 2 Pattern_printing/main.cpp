@@ -101,7 +101,7 @@ int main()
             }
             else 
             {
-                cout << " "
+                cout << " " ;
             }
         }
         cout << endl ;
