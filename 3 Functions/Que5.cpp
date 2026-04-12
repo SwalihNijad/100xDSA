@@ -8,17 +8,16 @@ int factorial(int n)
     {
         ans *= i;
     }
-    return ans;
+    returan ans;
 }
 
 int main()
 {
-    int n , r ;
-    cin >> n >> r ;
+    int n  ;
+    cin >> n;
 
     int nfact = factorial(n);
-    int rfact = factorial(r);
-    int nrfact = factorial(n -r);
+    
 
-    cout << nfact/(rfact * nrfact) << endl;
+    cout << nfact << endl;
 }
