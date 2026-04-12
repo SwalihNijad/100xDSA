@@ -8,7 +8,7 @@ int factorial(int n)
     {
         ans *= i;
     }
-    returan ans;
+    return ans;
 }
 
 int main()
