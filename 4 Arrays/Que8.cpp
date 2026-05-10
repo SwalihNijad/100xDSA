@@ -1,13 +1,8 @@
 #include <iostream>
 using namespace std;
 
-int main()
+void solve()   //when there is multiple test cases in input
 {
-    int t;
-    cin >> t;
-
-    while(t--)
-    {
         int n;
         cin >> n;
 
@@ -33,6 +28,17 @@ int main()
         for(int i = 0; i < c1; i++)
             cout << "1 ";
 
-        cout << endl;  
+        cout << endl; 
+}
+
+int main()
+{
+    int t;
+    cin >> t;
+
+    for(int i=0; i<t; i++)
+    {
+        solve();
     }
+     
 }
