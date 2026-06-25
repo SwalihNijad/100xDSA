@@ -30,7 +30,7 @@ void solve()
         {
             ans = a[i];
             break;
-        }
+        }   
     }
     cout << ans;
 }
