@@ -18,6 +18,7 @@ void solve()
     {
         int count = 0;
         int target = a[i];
+        
         for (int j = 0; j <= n; j++)
         {
             if (a[j] == target)
