@@ -7,7 +7,6 @@ int main()
     cin >> n;
 
     int a[n];
-
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
@@ -25,18 +24,14 @@ int main()
             j--;
             shifts++;
         }
-
         a[j + 1] = key;
-
         cout << "Pass " << pass << ": ";
-
         for (int i = 0; i < n; i++)
         {
             cout << a[i] << " ";
         }
 
         cout << ", ";
-
         for (int i = 0; i < n; i++)
         {
             if (i == pass + 1)
@@ -44,12 +39,10 @@ int main()
 
             cout << a[i] << " ";
         }
-
         if (pass == n - 1)
             cout << "| ";
 
         cout << ", shifts = " << shifts << endl;
     }
-
     return 0;
 }
