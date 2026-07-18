@@ -7,7 +7,6 @@ void solve()
     cin >> n;
 
     int a[n], b[n];
-
     for (int i = 0; i < n; i++)
     {
         cin >> a[i];
@@ -16,7 +15,6 @@ void solve()
 
     // Insertion Sort (count shifts)
     int shifts = 0;
-
     for (int i = 1; i < n; i++)
     {
         int key = a[i];
@@ -31,14 +29,11 @@ void solve()
 
         a[j + 1] = key;
     }
-
     // Selection Sort (count swaps)
     int swaps = 0;
-
     for (int i = 0; i < n - 1; i++)
     {
         int minIndex = i;
-
         for (int j = i + 1; j < n; j++)
         {
             if (b[j] < b[minIndex])
@@ -46,14 +41,12 @@ void solve()
                 minIndex = j;
             }
         }
-
         if (minIndex != i)
         {
             swap(b[i], b[minIndex]);
             swaps++;
         }
     }
-
     if (shifts < swaps)
     {
         cout << "Insertion Sort" << endl;
@@ -67,7 +60,6 @@ void solve()
         cout << "Tie" << endl;
     }
 }
-
 int main()
 {
     int t;
