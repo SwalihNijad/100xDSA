@@ -10,10 +10,8 @@ int main()
     {
         cin >> a[i];
     }
-
     int x;
     cin >> x;
-
     bool flag = false;
     for(int i=0; i<n; i++)
     {
@@ -30,5 +28,4 @@ int main()
     {
         cout << "NO";
     }
-
 }
