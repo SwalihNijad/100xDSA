@@ -5,13 +5,11 @@ int main()
     int low, high, mid ;
     int n;
     cin >> n;
-
     int a[n];
     for(int i=0; i<n; i++)
     {
         cin >> a[i];
     }
-
     int target;
     cin >> target;
 
