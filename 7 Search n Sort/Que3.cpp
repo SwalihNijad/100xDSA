@@ -11,10 +11,8 @@ int main()
     {
         cin >> a[i];
     }
-
     string target;
     cin >> target;
-
     bool flag = false;
     low = 0;
     high = n - 1;
