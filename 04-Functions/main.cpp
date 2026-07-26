@@ -146,7 +146,7 @@ bool isPrime(int n)
 int main()
 {
     int n ;
-    cin >> ;
+    cin >> n ;
 
     bool ans = isPrime(n);
     if(ans)
