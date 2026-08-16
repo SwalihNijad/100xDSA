@@ -9,24 +9,28 @@ int main()
 
     long long limit = sqrt(n);
 
-    bool flag =  true;
-    for(int i=2; i<=limit; i++)
-    {
-        if(n == 1)
-        {
-            flag = false;
-        }
-        else if(n % i == 0)
-        {
-            flag = false;
-        } 
-    }
-    if(flag == true)
-    {
-        cout << "YES";
-    }
-    else if(flag == false)
+    if (n == 1)
     {
         cout << "NO";
+    }
+    else
+    {
+        bool flag = true;
+        for (int i = 2; i <= limit; i++)
+        {
+            if (n % i == 0)
+            {
+                flag = false;
+                break;
+            }
+        }
+        if (flag)
+        {
+            cout << "YES";
+        }
+        else
+        {
+            cout << "NO";
+        }
     }
 }
