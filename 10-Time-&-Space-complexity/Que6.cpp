@@ -11,7 +11,7 @@ int main()
 
     for (int i = 2; i <= n; i++)
     {
-        bool flag = true;
+        bool flag = true;      // flag is used here to do count++
 
         for (int j = 2; j <= sqrt(i); j++)
         {
