@@ -13,7 +13,8 @@ int main()
     long long limit = sqrt(n);
 
     int count = 0;
-    for (int i = 1; i <= limit; i++)
+
+    for (int i = 1; i <= limit; i++)  //two loops used here
     {
         if (n % i == 0)
         {
@@ -25,6 +26,7 @@ int main()
             }
         }
     }
+
     for (int i = limit; i >= 1; i--)
     {
         if (n % i == 0 && i != n / i)
