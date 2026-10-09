@@ -6,7 +6,7 @@ int main()
     long long n;
     cin >> n;
 
-    while(n--)
+    while(n--)//using while loop for number of iterations
     {
         long long t, l, r;
         cin >> t >> l >> r;
