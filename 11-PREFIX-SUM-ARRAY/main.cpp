@@ -20,7 +20,7 @@ int main()
         p[i] = sum;
     }
 
-    int q;
+    int q;                          //Q is query
     cin >> q;
     for (int i = 0; i < n; i++)
     {
@@ -53,7 +53,6 @@ int main()
             cout << endl;
         }
     }
-
     // To find Sum of subArray
     int ans = 0;
     for (L = 0; L < N; L++)
