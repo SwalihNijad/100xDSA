@@ -9,7 +9,6 @@ int main()
     {
         cin >> a[i];
     }
-
     int p[n];
     int sum = 0;
     for(int i=0; i<n; i++)
@@ -33,5 +32,4 @@ int main()
         }
         cout << sum;
     }
-
 } 
