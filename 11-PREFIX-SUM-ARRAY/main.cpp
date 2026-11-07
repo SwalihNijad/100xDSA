@@ -6,7 +6,7 @@ int main()
     int n;
     cin >> n;
     int a[n];
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         cin >> a[i];
     }
@@ -14,7 +14,7 @@ int main()
     // Creating a prefix sum array
     int p[n];
     int sum = 0;
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= n; i++)
     {
         sum += a[i];
         p[i] = sum;
@@ -22,7 +22,7 @@ int main()
 
     int q;                          //Q is query
     cin >> q;
-    for (int i = 0; i < n; i++)
+    for (int i = 1; i <= q; i++)
     {
         int L, R;
         cin >> L >> R;
